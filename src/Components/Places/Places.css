@@ -1,0 +1,18 @@
+.slick-arrow{
+    @apply z-50  bottom-[85px] right-[40px] absolute 
+}
+.slick-next{
+@apply w-[80px] h-[80px] rounded-full bg-gradient-to-r to-[#64DBF5] from-[#ADE3EF] text-[#003363] 
+}
+.slick-prev{
+@apply text-[0px]
+}
+.slick-dots{
+    @apply text-[0px] !flex gap-2 absolute bottom-[60px] left-[55px]
+}
+.slick-dots li button{
+    @apply w-[8px] h-[8px] rounded-full bg-white 
+}
+.slick-dots .slick-active button{
+    @apply bg-gray-400
+}

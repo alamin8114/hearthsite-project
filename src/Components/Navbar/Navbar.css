@@ -1,0 +1,6 @@
+.menu-nav ul li a{
+    @apply text-[16px] font-dm font-semibold text-[#452112] hover:text-white
+}
+.nav-button .btn{
+    @apply sm:text-[16px] font-dm font-semibold hover:text-[#003363] text-[10px] text-[#452112]
+}
