@@ -2,7 +2,7 @@
     @apply z-50  bottom-[85px] right-[40px] absolute 
 }
 .slick-next{
-@apply w-[80px] h-[80px] rounded-full bg-gradient-to-r to-[#64DBF5] from-[#ADE3EF] text-[#003363] 
+@apply w-[40px] md:w-[80px] h-[40px] md:h-[80px] rounded-full bg-gradient-to-r to-[#64DBF5] from-[#ADE3EF] text-[#003363] 
 }
 .slick-prev{
 @apply text-[0px]

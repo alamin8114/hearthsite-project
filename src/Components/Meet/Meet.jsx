@@ -10,15 +10,16 @@ const Meet = () => {
     const [show,setshow]=useState(true)
   return (
     <>
-    <div style={{background:`url(${meetbg})`, backgroundPosition:"top", backgroundSize:'cover', backgroundRepeat:'no-repeat'}} className="alamin-meet w-full pb-[473px] z-50 mt-[-140px]">
+    <div style={{background:`url(${meetbg})`, backgroundPosition:"top", backgroundSize:'cover', backgroundRepeat:'no-repeat'}} className="alamin-meet w-full pb-[100px] sm:pb-[140px] md:[200px] lg:pb-[473px] z-50 mt-[-20px] sm:mt-[-30px] md:mt-[-60px] lg:mt-[-140px]">
         <div className="container">
-            <div className="meet-head pt-[180px] flex gap-[24px] justify-center items-center mb-[80px] ">
+            <div className="meet-head pt-[60px] sm:pt-[80px] md:pt-[100px] lg:pt-[180px] flex gap-[12px] md:gap-[24px] justify-center items-center mb-[80px] ">
                     <img className='w-[20px] h-[20px]' src={meetdot} alt="meet-dot" />
-                <h2 className='text-[48px] font-Poppins text-[#452112]'>Meet the people of Hearthside</h2>
+                <h2 className=' text-[36px] text-center md:text-[48px] font-Poppins text-[#452112]'>Meet the people of Hearthside</h2>
                 <img className='w-[20px] h-[20px] ' src={meetdot} alt="meet-dot" />
             </div>
-            <div className="meet-contain flex justify-between">
-                <div className="meet-button flex flex-col gap-[12px]">
+            <div className="meet-contain flex flex-col md:flex-row justify-center items-center md:justify-between">
+                <div className="flex flex-col-reverse items-center md:flex-row">
+                <div className="meet-button flex flex-row md:flex-col gap-[12px]">
                     <button onClick={()=>setshow(!show)}><img src={meetbutton1} alt="btn-ing" /></button>
                     <button  onClick={()=>setshow(!show)}><img src={meetbutton2} alt="btn-ing" /></button>
                 </div>
@@ -33,8 +34,9 @@ const Meet = () => {
                     </div>
                     
                 }
+                </div>
                 <div className="meet-row">
-                    <div className="meet-text w-[380px] flex flex-col justify-center items-center pt-[44px] pb-[34px] bg-gradient-to-t to-[#64DBF5] from-[#ADE3EF] rounded-[24px]">
+                    <div className="meet-text w-[310px] sm:w-[380px] flex flex-col justify-center items-center pt-[44px] pb-[34px] bg-gradient-to-t to-[#64DBF5] from-[#ADE3EF] rounded-[24px]">
                         <div className="flex justify-center items-center gap-[24px]">
                     <img className='w-[20px] h-[20px]' src={meetdot} alt="meet-dot" />
                     <h2 className='text-[64px] font-Poppins text-[#003363]'>Hazel</h2>
